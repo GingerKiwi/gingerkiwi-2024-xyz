@@ -5,11 +5,11 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://gingerkiwi.dev',
+  site: 'https://gingerkiwi.xyz',
   integrations: [tailwind(), sitemap({
-    filter: (page) => !/https:\/\/gingerkiwi\.dev\/blog\/[0-9]+/.test(page),
+    filter: (page) => !/https:\/\/gingerkiwi\.xyz\/blog\/[0-9]+/.test(page),
     customPages: [
-      'https://www.gingerkiwi.dev/linkedin'
+      'https://www.gingerkiwi.xyz/linkedin'
     ],
     changefreq: 'weekly',
     lastmod: new Date(),

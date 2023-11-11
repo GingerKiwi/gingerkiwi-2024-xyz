@@ -11,7 +11,7 @@ export async function GET(context: APIContext) {
     return rss({
         title: "Ginger Kiwi: Liz McCready's blog and portfolio",
         description: "Ginger Kiwi: Exploring Web Development, Accessibility, and Design",
-        site: context.site?.toString() || 'https://gingerkiwi.dev',
+        site: context.site?.toString() || 'https://gingerkiwi.xyz',
         items: posts.map((post) => ({
             title: post.data.title,
             description: post.data.description,
