@@ -1,25 +1,23 @@
 ---
-title: Data Structures and Algorithms - Javascript Arrays 02
-tags: ["code", "data structures", "algorithms", "javascript", "technical"]
+title: "Data Structures and Algorithms: Javascript Arrays #02"
 date: 2023-09-01
----
-
-<!-- 
-image: /assets/blog/JS-DSA-01.webp
-imageAlt: "'White text at top with black background says Javascript Data Structures and Algorithms. Below is a photo of an orange Pomeranian dog sitting at a wood table wearing large glasses looking at a dark grey iPad. The dog is wearing a dark red sweater. The entire graphic has a thick dark orange border that matches the heading colours of this blog. '"
-imageCaption: ADD CAPTION
+tags:
+  - post
+  - featured
+  - code
+  - dsa
+  - javascript
+  - technical
 description: It's time to go down the data structures and algorithms (dsa) rabbit hole. But let's make things more fun - no "foo" and "bar" here! This is a series of pet and Alice in Wonderland themed DSA articles. We're starting with the basics of arrays in Javascript.
---- -->
+---
 ## About This Article Series
 
-I've been preparing for technical interviews and DSA challenges lately. But it can be so dry! I mean I love a puzzle, but I've found that I prefer solving puzzles that result in an actual project people can use. To keep things interesting, I've been making my own notes with pet and Alice in Wonderland themes. So here's the first of (likely) many DSA articles in Javascript with no foo or bar.
+I've been preparing for technical interviews and DSA challenges lately. But it can be so dry! I mean I love a puzzle, but I've found that I prefer solving puzzles that result in an actual project people can use. To keep things interesting, I've been making my own notes with pet and Alice in Wonderland themes. So here's the first of (likely) many DSA articles in Javascript with no foo or bar. 
 
 The focus is also on ES6 Javascript to keep things current and just easier to read. I'm assuming that readers will have the basics of programming in Javascript or another language, though I do give a quick overview and some definitions. This is intended as a reference for other devs who are practicing for technical interviews, or want a more fun reference for Javascript programming.
 
 ## Javascript Arrays Part 02
-
 ### Concat
-
 Used to merge two or more arrays. It returns a new array. Concat doesn't mutate the original arrays.
 
 ```js
@@ -166,3 +164,4 @@ yell.sort()
 numbers.sort()
 // returns: [ 10, 2, 4, 5, 7, 8, 9 ]
 ```
+

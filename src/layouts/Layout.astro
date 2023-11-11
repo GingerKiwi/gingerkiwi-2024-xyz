@@ -29,13 +29,13 @@ const { seo } = Astro.props;
 	<body>
 		<div class='flex justify-between items-center py-4 bg-orange-700'>
 			<header>
-			  <a href='/' class='font-bold text-2xl hover:text-blue-900'
+			  <a href='/' class='font-bold text-2xl hover:text-blue-900 ml-4'
 				>GingerKiwi ❤️ Astro</a
 			  >
 			  <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
 			</header>
 			<nav>
-			  <ul class='flex gap-4'>
+			  <ul class='flex gap-4 mr-4'>
 				<li><Link href='/'>Home</a></li>
 				<li><Link href='/about'>About</a></li>
 				<li><Link href='/blog/1'>Blog</a></li>
@@ -46,7 +46,7 @@ const { seo } = Astro.props;
 			  </ul>
 			</nav>
 		  </div>
-		  <main class='flex-1'>
+		  <main class='flex-1 mx-6'>
 			<slot />
 		  </main>
 		  <footer class='w-full mx-auto text-center py-4'>

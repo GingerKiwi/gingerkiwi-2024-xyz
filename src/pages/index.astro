@@ -3,6 +3,9 @@ import { getCollection } from 'astro:content';
 
 import Layout from '../layouts/Layout.astro';
 
+// import { Image } from 'astro:assets';
+// import booCoding from '../assets/Boo-helping-me-code.jpg';
+
 import Link from '../components/Link.astro';
 
 import PostsList from '../components/PostsList.astro';
@@ -18,6 +21,18 @@ const posts = await getCollection('blog');
 			<p class='mt-2'>
 				Based in Toronto, Canada, I’m a software developer, technical content writer, and former adaptive tech specialist passionate about building beauitful accessible web apps and solving puzzles with others.
 			</p>
+			<p class="my-4"><strong>This site is under developement and is being built in public. 
+				<br>This site will eventually be deployed to gingerkiwi.dev and will combine the contents of my developer portfolio and my blog. Less to maintain!
+				<br>Please visit <Link href='https://gingerkiwi.blog'  class='underline-offset-8'>https://gingerkiwi.blog</a> for a full list of articles with images.
+			</strong></p>
+			<!-- <Image 
+				src={ booCoding } 
+				alt="Grey long haired cat peaking up over a laptop screen. The screen has a Git merging exercise on it and multiple tabs open. There's a set of white bookcases in the background. Some have solid doors, some have glass doors." 
+				width={486}
+				quality='max'
+				class=''
+				for a full list of articles with images.
+			/> -->
 	</div>
 	<div class='flex flex-col'>
 		<h2 class='text-2xl font-semibold'>Recent blog posts:</h2>
